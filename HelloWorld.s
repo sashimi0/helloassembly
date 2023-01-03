@@ -2,7 +2,7 @@
 
 _start: mov X0, #1 //stdout
 	ldr X1, =helloworld
-	mov X2, #13
+	mov X2, #16
 	mov X8, #64
 	svc 0
 	
@@ -10,4 +10,4 @@ _start: mov X0, #1 //stdout
 	mov X8, #93
 	svc 0
 .data
-helloworld:	.ascii "Hello World!\n"
+helloworld:	.ascii "Goodbye World!\n"
